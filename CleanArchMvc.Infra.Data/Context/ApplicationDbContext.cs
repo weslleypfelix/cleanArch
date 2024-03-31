@@ -17,6 +17,5 @@ namespace CleanArchMvc.Infra.Data.Context
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
-
     }
 }
